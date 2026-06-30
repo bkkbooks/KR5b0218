@@ -1,0 +1,77 @@
+canonical_identifier: bkk:krp/KR5b0218/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5b0218/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 洞玄靈寶河圖仰謝三十六天齋儀
+  date: '2015-08-29 00:14:22.859012'
+  source:
+    repository: kanripo
+    path: KR5b0218
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0218_000-HFL.yaml, hash: 'sha256:b2dc8263407d18983d9b6e9f9abefa89ea1d54bc96b822e227789e0e1f599b0b'}
+  - {seq: 1, filename: KR5b0218_001-HFL.yaml, hash: 'sha256:b7a69abf4f87092f9faba417cb46e855797d46600019aeaef4faa5006e524236'}
+  - {seq: 2, filename: KR5b0218_002-HFL.yaml, hash: 'sha256:63ceceeaae7dbd3918e0e5b56cb881d454b090e4d22b15ff2c81dbd5f8b22b68'}
+  - {seq: 3, filename: KR5b0218_003-HFL.yaml, hash: 'sha256:941d6bae96d6a2a256857882db1e3b489f4aace60ce600b1a2fa1e93669f5434'}
+  - {seq: 4, filename: KR5b0218_004-HFL.yaml, hash: 'sha256:1abcb735bfea62a8352c603c63a94fb2bca0300f47c94ca73e625c5875b1c02b'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5b0218_001-HFL.markers.yaml, hash: 'sha256:cfb4ea7aaaec95058e21beea6bd106a5f67d4b6203922e03a826464f2251c51e'}
+  - {seq: 2, role: markers, filename: assets/KR5b0218_002-HFL.markers.yaml, hash: 'sha256:592a1faa3033cf9d9b5b228a4eb4aca94192d575356015a104f871c8163d171e'}
+  - {seq: 3, role: markers, filename: assets/KR5b0218_003-HFL.markers.yaml, hash: 'sha256:4d324447784462ebfaaa7096f5166786aa998f8d5c1321458622d27e4640905d'}
+  - {seq: 4, role: markers, filename: assets/KR5b0218_004-HFL.markers.yaml, hash: 'sha256:61534fc9ec13951475be89eabdcc84f317f7bf3e63ab4e5b3ae9972208c00a27'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR5b0218_HFL_001-001a
+    span:
+    - body
+    - 0
+    - 5291
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5b0218_HFL_002-001a
+    span:
+    - body
+    - 0
+    - 4214
+  label: juan 002
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR5b0218_HFL_003-001a
+    span:
+    - body
+    - 0
+    - 4220
+  label: juan 003
+  type: section
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR5b0218_HFL_004-001a
+    span:
+    - body
+    - 0
+    - 4239
+  label: juan 004
+  type: section
+  level: 1
+hash: sha256:cabf1353de5757fde23126f4f5456b3ad59c551462c0178f28656d7b5874e1b0
